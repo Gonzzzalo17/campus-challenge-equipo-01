@@ -27,8 +27,19 @@ def rank_teams(entries):
 
 
 def unique_tags(tags):
-    """Elimina etiquetas repetidas."""
-    return list(set(tags))
+    """Elimina etiquetas duplicadas conservando la primera aparición y el orden.
+
+    R-07: la comparación distingue mayúsculas y minúsculas,
+    y se conserva el orden original de la primera aparición.
+    R-02: se construye una lista nueva; 'tags' no se modifica.
+    """
+    seen = set()
+    result = []
+    for tag in tags:
+        if tag not in seen:
+            seen.add(tag)
+            result.append(tag)
+    return result
 
 
 def average_score(scores):
