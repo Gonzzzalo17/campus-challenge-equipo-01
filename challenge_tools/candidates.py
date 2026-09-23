@@ -5,15 +5,17 @@ Revisa su comportamiento según los requisitos de la actividad.
 
 
 def normalize_answer(answer):
-    """Normaliza una respuesta para compararla sin distinguir mayúsculas."""
+    """Normaliza una respuesta para compararla sin distinguir mayúsculas"""
     return answer.strip().casefold()
 
 
 def rotate_left(items, steps):
-    """Devuelve una lista nueva rotada a la izquierda."""
-    copied = list(items)
-    copied.rotate(-steps)
-    return copied
+    """La rotación izquierda debe ser circular, admitir una lista vacía e interpretar los pasos negativos como una rotación hacia la derecha."""
+    if not items:
+        return list(items)
+
+    shift = steps % len(items)
+    return list(items[shift:]) + list(items[:shift])
 
 
 def round_score_to_ten(score):
