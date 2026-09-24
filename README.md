@@ -2,8 +2,10 @@
 
 | Integrante | Requisito trabajado | PR propio | PR revisado |
 | :--- | :--- | :--- | :--- |
-| **Andrea** | R-03 / R-04 | [PR #2](https://github.com/Gonzzzalo17/campus-challenge-equipo-01/pull/2) | [PR #1](https://github.com/Gonzzzalo17/campus-challenge-equipo-01/pull/1) |
+| **Andrea** | R-03 / R-04 | [PR #2](https://github.com/Gonzzzalo17/campus-challenge-equipo-01/pull/2) [PR #3](https://github.com/Gonzzzalo17/campus-challenge-equipo-01/pull/3) | [PR #1](https://github.com/Gonzzzalo17/campus-challenge-equipo-01/pull/1) |
 | **Gonzalo** | R-05 / R-06 | [PR #1](https://github.com/Gonzzzalo17/campus-challenge-equipo-01/pull/1) | [PR #2](https://github.com/Gonzzzalo17/campus-challenge-equipo-01/pull/2) |
+| **Santiago** | R-07 / R-08 | [PR #4](https://github.com/Gonzzzalo17/campus-challenge-equipo-01/pull/4) | [PR #3](https://github.com/Gonzzzalo17/campus-challenge-equipo-01/pull/3) |
+
 
 
 Preguntas individuales de salida
